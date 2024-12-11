@@ -21,7 +21,8 @@ public class PropertyReader {
 		String text = prop.getProperty(value);
 		return text;
 	}
-	
+
+	/*Excel File Reader*/
 	public static String readExcelData(String sheetName, int rowNo, int cellNo) throws EncryptedDocumentException, IOException
 	{
 		String path = System.getProperty("user.dir") + "\\src\\test\\resources\\data.xlsx";
