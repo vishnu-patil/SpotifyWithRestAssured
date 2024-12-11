@@ -10,6 +10,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class PropertyReader {
 
+	/*Config File Reader*/
 	public static String readProperty(String value) throws IOException
 	{
 		String path = System.getProperty("user.dir") + "\\src\\test\\resources\\config.properties";
